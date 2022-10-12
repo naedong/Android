@@ -45,7 +45,7 @@ import kr.main.heydr.view.main.MainActivity;
 
 public class GPSActivity extends Activity implements TMapGpsManager.onLocationChangedCallback, TMapView.OnLongClickListenerCallback {
 
-    private static  String mApiKey = "l7xx8fc6162789f747579d26c53413bd30f7";
+    private static  String mApiKey = "APIKEY";
     // T Map View
     private TMapGpsManager tMapGPS = null;
     private BottomNavigationView bottomNavigationView;
