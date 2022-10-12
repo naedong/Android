@@ -47,3 +47,6 @@ https://user-images.githubusercontent.com/107181511/195342986-41390f18-63c8-4057
 지도 기능(지도는 주소검색 Firebase Hosting(뷰 배포), KaKao Address(주소검색), T-MAP(화면표시) 그리고 주변 편의시설 검색, 주변 병원 확인으로 하였습니다.)
 
 
+![image](https://user-images.githubusercontent.com/107181511/195347084-9dacfb82-d4da-4a80-8609-fe0091a3709b.png)
+
+챗봇 (BrainShop을 이용해서 간단하게 만들었으며 소요시간 10분으로 급하게 만든거라 모델이 적습니다. retrofit이 아닌 Volley를 사용)  
