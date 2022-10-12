@@ -28,7 +28,7 @@ public class KaKaoAdresActivity extends AppCompatActivity {
             }
         });
         // 최초 웹뷰 로드
-        webView.loadUrl("https://heydr-755f2.firebaseapp.com");
+        webView.loadUrl("FIREBASE WEBURL");
     }
 
     private class BridgeInterface {
