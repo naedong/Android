@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">HeyDr</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="all_app_version">Sample UI v%1$s / SDK v%2$s</string>
+    <string name="nav_header_title">여기에 사용자</string>
+    <string name="nav_header_subtitle">여기에 사용자 이메일 </string>
+    <string name="naver_client_id">U8ZTG6a6tp4xclmrelmi</string>
+    <string name="naver_client_secret">0gtMrGHcQD</string>
+    <string name="naver_client_name">학생연습용API</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="agora_app_id">ec819ae317e442589934155ce4fa0c80</string>
+    <string-array name="custom_weekdays">
+        <item>일</item>
+        <item>월</item>
+        <item>화</item>
+        <item>수</item>
+        <item>목</item>
+        <item>금</item>
+        <item>토</item>
+    </string-array>
+
+    <string-array name="custom_months">
+        <item>1월</item>
+        <item>2월</item>
+        <item>3월</item>
+        <item>4월</item>
+        <item>5월</item>
+        <item>6월</item>
+        <item>7월</item>
+        <item>8월</item>
+        <item>9월</item>
+        <item>10월</item>
+        <item>11월</item>
+        <item>12월</item>
+    </string-array>
+</resources>

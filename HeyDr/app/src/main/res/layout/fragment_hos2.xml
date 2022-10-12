@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_hos"
+    tools:context=".view.search.hospital.frag.HosFragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/list_lin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|left"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        >
+        <ListView
+            android:id="@+id/review_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            ></ListView>
+
+
+    </LinearLayout>
+
+</FrameLayout>

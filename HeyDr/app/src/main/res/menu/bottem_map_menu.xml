@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="주소 검색"
+        android:id="@+id/action_search_bus"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_search_24">
+    </item>
+
+    <item
+        android:title="주변 편의시설"
+        android:id="@+id/bt_findfac"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_shop_two_24">
+    </item>
+    <item
+        android:title="검색"
+        android:id="@+id/bt_find"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_search_off_24">
+    </item>
+
+    <item
+        android:title="홈"
+        android:id="@+id/action_homi"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24">
+    </item>
+</menu>

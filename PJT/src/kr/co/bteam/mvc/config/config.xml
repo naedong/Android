@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE configuration
+ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-config.dtd">
+ <configuration>
+ 	<typeAliases>
+ 		<typeAlias type="kr.co.bteam.mvc.vo.BossDTO" alias="bos"/>
+ 		<typeAlias type="kr.co.bteam.mvc.vo.MasterDTO" alias="mas"/>
+ 		<typeAlias type="kr.co.bteam.mvc.vo.PopulDTO" alias="pop"/>
+ 		<typeAlias type="kr.co.bteam.mvc.vo.ShopDTO" alias="sho"/>
+ 		<typeAlias type="kr.co.bteam.mvc.vo.SinfoDTO" alias="sin"/>
+ 		<typeAlias type="kr.co.bteam.mvc.vo.UserDTO" alias="use"/>
+ 		<typeAlias type="kr.co.bteam.mvc.vo.MyLoginLogDTO" alias="log"/>
+ 	</typeAliases>
+ </configuration>

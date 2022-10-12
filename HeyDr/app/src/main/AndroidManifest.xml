@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="kr.main.heydr">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="com.dev.cromer.jason.coverme.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name=".view.main.BaseApplication"
+        android:allowBackup="true"
+        android:configChanges="orientation|screenSize"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:debuggable="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/haydrlogo"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+        tools:ignore="HardcodedDebugMode"
+        tools:targetApi="31">
+        <activity android:name=".view.chatbot.CHATBOTActivity"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".view.search.hospital.HospitalDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.map.KaKaoAdresActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.map.SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".utils.ProgerssActivity"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".view.chat.DocRoomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.chat.HosRoomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.login.googleLogin"
+            android:exported="true" />
+        <activity
+            android:name=".view.video.VideoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.search.hospital.HospitalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.chat.RoomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.chat.MessageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.chat.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.msg.MsgChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.search.pharmacy.PharmacyDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.search.pharmacy.PharmacyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.mypage.MypageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.web.WebviewActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.kakao.sdk.auth.AuthCodeHandlerActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <!-- Redirect URI: "kakao{NATIVE_APP_KEY}://oauth" -->
+
+                <data
+                    android:host="oauth"
+                    android:scheme="5dfa293c579530ff0bf93ad469907a45" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nhn.android.naverlogin.ui.OAuthCustomTabActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="5dfa293c579530ff0bf93ad469907a45" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/haydrlogo" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/black" />
+        <meta-data
+            android:name="firebase_messaging_auto_init_enabled"
+            android:value="false" />
+        <meta-data
+            android:name="firebase_analytics_collection_enabled"
+            android:value="false" />
+
+        <service
+            android:name=".service.MyFirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".view.login.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.map.GPSActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.map.MapActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.main.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.main.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

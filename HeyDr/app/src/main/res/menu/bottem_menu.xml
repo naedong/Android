@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="지도"
+        android:id="@+id/action_map"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_map_24">
+    </item>
+    <item
+        android:title="채팅"
+        android:id="@+id/action_chat"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_chat_24">
+    </item>
+    <item
+        android:title="My Page"
+        android:id="@+id/action_human"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_emoji_people_24">
+    </item>
+    <item
+        android:title="Login/Logout"
+        android:id="@+id/action_login"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_login_24">
+    </item>
+    <item
+        android:title="홈"
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24">
+    </item>
+
+</menu>
