@@ -50,3 +50,8 @@ https://user-images.githubusercontent.com/107181511/195342986-41390f18-63c8-4057
 ![image](https://user-images.githubusercontent.com/107181511/195347084-9dacfb82-d4da-4a80-8609-fe0091a3709b.png)
 
 챗봇 (BrainShop을 이용해서 간단하게 만들었으며 소요시간 10분으로 급하게 만든거라 모델이 적습니다. retrofit이 아닌 Volley를 사용)  
+
+![image](https://user-images.githubusercontent.com/107181511/195347603-816d6b3a-8f96-4e3b-be9f-f8e8696bf273.png)
+
+
+
