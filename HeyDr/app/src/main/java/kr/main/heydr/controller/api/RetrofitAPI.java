@@ -36,7 +36,7 @@ public interface RetrofitAPI {
     Call<List<String>> login(String accessToken);
 
 
-    @Headers({"Authorization:key=AAAAdr9jklw:APA91bFeUq3GHu6liKkr-rvxeRaWi2a42JYJ17tV28GV8Y4KhoCee14M7PVp_IaKXlfQ6rCjjSXMF_ksOpSsxuHHe1r4HeEMUr5WCf9ZNf9RxtmoSiONRJNCr6yPkAyiqqZvprdgXcLd"})
+    @Headers({"Authorization:key="APIKEY""})
     @POST("fcm/send")
     Call<String> sendFCM(@Body FCMTo sendtoken);
 
