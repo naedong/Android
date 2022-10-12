@@ -54,9 +54,9 @@ import android.widget.FrameLayout;
 
 public class VideoActivity extends AppCompatActivity {
 
-    private String appId = "dd8e9d6b3ecb4f80ba6c1e5a48d38616";
-    private String channelName = "gi";
-    private String token = "007eJxTYMhTzFBpYxHmV1fpcNZ078qfqyUtcNA+6Fdy7ISbnyNW/FBgSEmxSLVMMUsyTk1OMkmzMEhKNEs2TDVNNLFIMbYwMzSb88okWdbGLPmazmUWRgYIBPGZGNIzGRgAHYUc4g==";
+    private String appId = "ID";
+    private String channelName = "CHANNELNAME";
+    private String token = "TOKEN";
     private RtcEngine mRtcEngine;
 
     // Permissions
