@@ -27,7 +27,7 @@ public class MapActivity extends AppCompatActivity {
 
         LinearLayout linearLayoutTmap = (LinearLayout)findViewById(R.id.linearLayoutTmap);
         TMapView tMapView = new TMapView(this);
-        tMapView.setSKTMapApiKey("l7xx8fc6162789f747579d26c53413bd30f7");
+        tMapView.setSKTMapApiKey("API KEY");
         linearLayoutTmap.addView( tMapView );
 
         ActivityResultLauncher<String[]> locationPermissionRequest =
