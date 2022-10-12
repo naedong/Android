@@ -1,7 +1,7 @@
 # Android
 
 Android HeyDr의 경우 
-Android 공부 기간 9/6 ~ 9/18일 이며
+Android 같은 경우 독학이며 공부 기간 9/6 ~ 9/18일 이며
         만든 기간은 9/18 ~ 9/29일입니다.
 Java 위주로 제작하였으며
 
@@ -41,3 +41,9 @@ https://user-images.githubusercontent.com/107181511/195342986-41390f18-63c8-4057
 
 
 화상채팅, 채팅, 푸시알림 기능
+
+![image](https://user-images.githubusercontent.com/107181511/195346658-6c132334-9868-4419-ba75-3124b4b9d83b.png)
+
+지도 기능(지도는 주소검색 Firebase Hosting(뷰 배포), KaKao Address(주소검색), T-MAP(화면표시) 그리고 주변 편의시설 검색, 주변 병원 확인으로 하였습니다.)
+
+
