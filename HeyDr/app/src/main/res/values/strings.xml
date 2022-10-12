@@ -5,11 +5,11 @@
     <string name="all_app_version">Sample UI v%1$s / SDK v%2$s</string>
     <string name="nav_header_title">여기에 사용자</string>
     <string name="nav_header_subtitle">여기에 사용자 이메일 </string>
-    <string name="naver_client_id">U8ZTG6a6tp4xclmrelmi</string>
-    <string name="naver_client_secret">0gtMrGHcQD</string>
+    <string name="naver_client_id">{"ID"}</string>
+    <string name="naver_client_secret">{"시크릿"}</string>
     <string name="naver_client_name">학생연습용API</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="agora_app_id">ec819ae317e442589934155ce4fa0c80</string>
+    <string name="agora_app_id">{"API KEY"}</string>
     <string-array name="custom_weekdays">
         <item>일</item>
         <item>월</item>
